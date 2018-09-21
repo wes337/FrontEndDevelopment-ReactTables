@@ -66,7 +66,7 @@ class App extends Component {
               },
               {
                 Cell: row => (
-                    <button className="App-delete-btn" id={row} onClick={() =>this.deleteTodo(row)}>Delete</button>
+                    <button className="App-delete-btn" id={row} onClick={() => this.deleteTodo(row)}>Delete</button>
                 ),
                 maxWidth: 200,
                 resizable: false
